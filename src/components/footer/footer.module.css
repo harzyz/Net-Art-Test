@@ -1,0 +1,23 @@
+.wrapper{
+  width: 100%;
+  background-color: #FFFAC1;
+  padding: 8px;
+}
+.innerWrapper{
+  width: 100%;
+  background-color: #EC3237;
+  height: 100px;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+@media screen and (max-width: 700px) {
+  .innerWrapper{
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    padding: 20px;
+  }
+}
